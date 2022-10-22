@@ -1,0 +1,432 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+ }
+
+ body {
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    height: 100vh; 
+}
+
+span{
+    border: grey 1px solid;
+    color: black;
+    background-color: grey;
+    pointer-events: none;
+    border-radius: 50%;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: absolute;
+    right: 210px;
+    top:52px;
+    z-index: 10;
+}
+
+h1 {
+    border: none;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1;
+    position: relative;
+    top: 200px;
+    font-stretch: extra-expanded;
+    background: 
+    linear-gradient(currentColor 0 0) 
+    bottom /var(--d, 0) 3px 
+    no-repeat;
+   transition:0.5s;
+   text-align: center;
+  }
+
+h1:hover {
+    --d: 100%;
+}
+
+.researchbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type="text"]::placeholder {
+    color:grey;
+}
+
+#sneak {
+    margin-left:55px;
+    width:20%;
+}
+
+ #shop,#contact,#home {
+    margin-left: 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background: 
+      linear-gradient(currentColor 0 0) 
+      bottom /var(--d, 0) 3px no-repeat;
+     transition:0.5s;
+  }
+
+
+#shop:hover,#contact:hover,#home:hover{
+    z-index: 60;
+    --d: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: none;
+   
+}
+
+#panier {
+    position: relative;
+    left: 250px;
+    
+}
+
+
+
+#linkhub {
+    margin-left: 60px;
+}
+
+
+#imagelogin {
+    width : 50px;
+    height: 50px;
+    margin: 20px;
+    margin-right: 90px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    z-index: 15;
+}
+
+.chaussure1{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 300px;
+    border-radius: 1ch;
+    background-color: grey;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure1:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image1 {
+    position: relative;
+
+}
+
+.chaussure2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 300px;
+    border-radius: 1ch;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure2:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+
+}
+
+#image2 {
+    position: relative;
+
+}
+
+.chaussure3{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 300px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure3:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image3 {
+    position: relative;
+
+}
+
+
+
+.chaussure4{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 300px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure4:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image4 {
+    position: relative;
+ 
+}
+
+.chaussure5{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure5:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image5 {
+    position: relative;
+    bottom: 40px;
+}
+
+
+
+.chaussure6{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure6:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image6 {
+    position: relative;
+    top: 15px;
+}
+
+
+.chaussure7{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure7:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+    
+}
+
+#image7 {
+    position: relative;
+    top: 34px;
+}
+
+.chaussure8{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure8:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image8 {
+    position: relative;
+    bottom: 40px;
+}
+
+.chaussure9{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    border-radius: 1ch;
+    background-color: aliceblue;
+    transition: box-shadow,transform 300ms;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure9:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image9 {
+    position: relative;
+    top: 45px;
+}
+
+p{
+  font-size: 25px;
+  font-weight:900;
+}
+
+img {
+    position: relative;
+}
+
+.chaussure10{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1ch;
+    transition: box-shadow,transform 300ms;
+    align-items: center;
+    z-index: 10;
+}
+
+.chaussure10:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-13px);
+}
+
+#image10 {
+    position: relative;
+    top: 30px;
+}
+
+button{
+  margin: 10px;
+  z-index: 1;
+  padding: 13px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  left: 135px;
+  bottom: 15px;
+}
+
+button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#marque1,#marque2,#marque3,#marque4,#marque5,#marque6,#marque7,#marque8,#marque9,#marque10{
+    position: relative;
+    bottom: 30px;
+    
+}
+
+#prix1,#prix2,#prix3,#prix4,#prix5,#prix6,#prix7,#prix8,#prix9,#prix10{
+     position: relative;
+     bottom: 30px;
+
+}
